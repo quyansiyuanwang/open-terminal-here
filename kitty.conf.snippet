@@ -1,0 +1,9 @@
+# Open Terminal Here
+# Allow the Finder Quick Action to add tabs to an existing kitty window through
+# remote control. Append these lines to ~/.config/kitty/kitty.conf.
+#
+# listen_on is applied at startup: open a new kitty window (or restart kitty)
+# for the socket to appear.
+
+allow_remote_control socket-only
+listen_on unix:${HOME}/.cache/kitty-remote
