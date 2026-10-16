@@ -1,6 +1,6 @@
 # Open Terminal Here
 
-[![CI](https://github.com/quyansiyuanwang/open-terminal-here/actions/workflows/ci.yml/badge.svg)](https://github.com/quyansiyuanwang/open-terminal-here/actions/workflows/ci.yml)
+[![CI](https://github.com/quyansiyuanwang/open-terminal-here/actions/workflows/ci.yml/badge.svg)](https://github.com/quyansiyuanwang/open-terminal-here/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Platform: macOS](https://img.shields.io/badge/Platform-macOS-blue.svg)](#requirements)
 
 English | [简体中文](README.zh-CN.md)
 
@@ -135,7 +135,11 @@ longer needed.
 
 ```
 open-terminal-here/
-+-- .github/workflows/ci.yml
++-- .github/
+|   +-- workflows/ci.yml
+|   +-- ISSUE_TEMPLATE/bug_report.md
+|   +-- pull_request_template.md
+|   +-- release.yml
 +-- OpenTerminalHere.workflow/
 |   +-- Contents/
 |       +-- Info.plist

@@ -1,6 +1,6 @@
 # 在当前位置打开终端
 
-[![CI](https://github.com/quyansiyuanwang/open-terminal-here/actions/workflows/ci.yml/badge.svg)](https://github.com/quyansiyuanwang/open-terminal-here/actions/workflows/ci.yml)
+[![CI](https://github.com/quyansiyuanwang/open-terminal-here/actions/workflows/ci.yml/badge.svg)](https://github.com/quyansiyuanwang/open-terminal-here/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Platform: macOS](https://img.shields.io/badge/Platform-macOS-blue.svg)](#环境要求)
 
 [English](README.md) | 简体中文
 
@@ -124,7 +124,11 @@ rm -rf ~/Library/Services/OpenTerminalHere.workflow
 
 ```
 open-terminal-here/
-+-- .github/workflows/ci.yml
++-- .github/
+|   +-- workflows/ci.yml
+|   +-- ISSUE_TEMPLATE/bug_report.md
+|   +-- pull_request_template.md
+|   +-- release.yml
 +-- OpenTerminalHere.workflow/
 |   +-- Contents/
 |       +-- Info.plist
